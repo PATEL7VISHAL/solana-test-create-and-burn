@@ -1,6 +1,6 @@
 ### Token creation
 ```cmd
-node ./dist/index.js createtoken --name "TOKEN_NAME" --symbol "TS" --image "TOKEN_IMAGE_LINK" --decimals 5 --website "web_link" --initial-minting 10000 --url devnet
+node ./dist/index.js createtoken --name "TOKEN_NAME" --symbol "TS" --uri "JSON_URL" --decimals 6 --supply 10000 --url 'devnet'
 ```
 
 ### Minting 
